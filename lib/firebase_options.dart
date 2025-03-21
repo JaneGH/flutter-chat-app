@@ -51,21 +51,21 @@ class DefaultFirebaseOptions {
   }
 
   static FirebaseOptions android = FirebaseOptions(
-    apiKey: dotenv.env['FIREBASE_API_KEY']!,
-    appId: dotenv.env['FIREBASE_APP_ID']!,
-    messagingSenderId: dotenv.env['FIREBASE_MESSAGING_SENDER_ID']!,
-    projectId: dotenv.env['FIREBASE_PROJECT_ID']!,
-    databaseURL: dotenv.env['FIREBASE_DATABASE_URL']!,
-    storageBucket: dotenv.env['FIREBASE_STORAGE_BASKET']!,
+    apiKey:  dotenv.get('FIREBASE_API_KEY'),
+    appId:  dotenv.get('FIREBASE_APP_ID'),
+    messagingSenderId:  dotenv.get('FIREBASE_MESSAGING_SENDER_ID'),
+    projectId:  dotenv.get('FIREBASE_PROJECT_ID'),
+    databaseURL: dotenv.get('FIREBASE_DATABASE_URL'),
+    storageBucket:  dotenv.get('FIREBASE_STORAGE_BASKET'),
   );
 
   static FirebaseOptions ios = FirebaseOptions(
-    apiKey: dotenv.env['FIREBASE_API_KEY']!,
-    appId: dotenv.env['FIREBASE_APP_ID']!,
-    messagingSenderId: dotenv.env['FIREBASE_MESSAGING_SENDER_ID']!,
-    projectId: dotenv.env['FIREBASE_PROJECT_ID']!,
-    databaseURL: dotenv.env['FIREBASE_DATABASE_URL']!,
-    storageBucket: dotenv.env['FIREBASE_STORAGE_BASKET']!,
-    iosBundleId: dotenv.env['FIREBASE_IOS_BUNDLE_ID']!,
+    apiKey: dotenv.get('FIREBASE_API_KEY'),
+    appId:  dotenv.get('FIREBASE_APP_ID'),
+    messagingSenderId:  dotenv.get('FIREBASE_MESSAGING_SENDER_ID'),
+    projectId:  dotenv.get('FIREBASE_PROJECT_ID'),
+    databaseURL:  dotenv.get('FIREBASE_DATABASE_URL'),
+    storageBucket:  dotenv.get('FIREBASE_STORAGE_BASKET'),
+    iosBundleId:  dotenv.get('FIREBASE_IOS_BUNDLE_ID'),
   );
 }

@@ -5,10 +5,11 @@ import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'firebase_options.dart';
 
 Future<void> main() async {
-  await dotenv.load();
   WidgetsFlutterBinding.ensureInitialized();
+  await dotenv.load(fileName: ".env");
   await Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform,
+      name: 'flutter_chat_app',
+      options: DefaultFirebaseOptions.currentPlatform,
   );
   runApp(const App());
 }
