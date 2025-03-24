@@ -1,0 +1,1 @@
+/Users/ievgeniia/work/projects/Android_Flutter/flutter_chat_app/build/app/intermediates/cxx/Debug/v4y2o433/obj/armeabi-v7a
