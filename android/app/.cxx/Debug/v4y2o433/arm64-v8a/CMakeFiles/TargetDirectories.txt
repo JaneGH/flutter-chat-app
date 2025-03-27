@@ -1,2 +1,0 @@
-/Users/ievgeniia/work/projects/Android_Flutter/flutter_chat_app/android/app/.cxx/Debug/v4y2o433/arm64-v8a/CMakeFiles/edit_cache.dir
-/Users/ievgeniia/work/projects/Android_Flutter/flutter_chat_app/android/app/.cxx/Debug/v4y2o433/arm64-v8a/CMakeFiles/rebuild_cache.dir
